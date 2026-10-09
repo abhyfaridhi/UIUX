@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Float Left dan Galeri Gambar</title>
+
+    <style>
+        h1{
+            text-align: center;
+            color: #333333;
+        }
+        .gambar {
+            float: left;
+            width: 30%;
+            margin: 1.5%;
+            box-sizing: border-box;
+            background-color: white;
+            border: 1px solid #dddddd;
+            padding: 8px;
+            text-align: center;
+        }
+
+        .gambar img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        .gambar p {
+            font-size: 16px;
+            color: #333333;
+            text-align: center;
+        }
+        .galeri {
+            background-color: aqua;
+            padding: 15px;
+            border-radius: 20px;
+            overflow: hidden;
+        }
+
+        .clear {
+            clear: both;
+        }
+
+        .tengah {
+            text-align: center;
+        }
+    </style>
+
+<body>
+        <h1>Galeri Gambar</h1>
+
+        <hr>
+
+    <div class="galeri">
+
+        <div class="gambar">
+            <img src="https://picsum.photos/id/15/400/300"
+                 alt="Hutan">
+            <p>Gambar 1</p>
+        </div>
+
+        <div class="gambar">
+            <img src="https://picsum.photos/id/20/400/300"
+                 alt="Alam">
+            <p>Gambar 2</p>
+        </div>
+
+        <div class="gambar">
+            <img src="https://picsum.photos/id/55/400/300"
+                 alt="Pemandangan">
+            <p>Gambar 3</p>
+        </div>
+
+        <div class="gambar">
+            <img src="https://picsum.photos/id/70/400/300"
+                 alt="Gunung">
+            <p>Gambar 4</p>
+        </div>
+
+        <div class="gambar">
+            <img src="https://picsum.photos/id/40/400/300"
+                 alt="Lanskap">
+            <p>Gambar 5</p>
+        </div>
+
+        <div class="gambar">
+            <img src="https://picsum.photos/id/18/400/300"
+                 alt="Pemandangan alam">
+            <p>Gambar 6</p>
+        </div>
+
+        <div class="clear"></div>
+        
+        <p>
+            halaman kembali <a  href="float1.html">disini</a>
+        </p>
+
+    </div>
+
+    <hr>
+
+    <p class="tengah">
+        Copyright &copy; 2026 Belajar Float Left.
+        All rights reserved.
+    </p>
+
+</body>
