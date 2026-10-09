@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Float Left dan Galeri Gambar</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f2f2f2;
+        }
+
+        h1{
+            text-align: center;
+            color: #333333;
+        }
+
+        h2 {
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+
+        /* Kotak Float */
+        .kotak {
+            width: 100px;
+            height: 100px;
+            background-color: brown;
+            float: left;
+            margin-right: 10px;
+        }
+
+        .kotak2 {
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            float: right;
+            margin-left: 10px;
+        }
+
+        p {
+            text-align: justify;
+            line-height: 1.6;
+        }
+
+        
+        .galeri {
+            background-color: aqua;
+            padding: 15px;
+            border-radius: 20px;
+            overflow: hidden;
+        }
+
+        .gambar {
+            float: left;
+            width: 30%;
+            margin: 1.5%;
+            box-sizing: border-box;
+            background-color: white;
+            border: 1px solid #dddddd;
+            padding: 8px;
+            text-align: center;
+        }
+
+        .gambar img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        .gambar p {
+            font-size: 16px;
+            color: #333333;
+            text-align: center;
+        }
+
+        .clear {
+            clear: both;
+        }
+
+        .tengah {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Belajar CSS Float</h1>
+    <h2>Contoh Float Left dan Float Right</h2>
+
+    <hr>
+
+    <div class="kotak"></div>
+
+    <p>
+        Ini adalah contoh penggunaan Float Left.
+        Kotak berwarna cokelat berada di sebelah kiri,
+        sedangkan teks akan mengalir di sebelah kanan
+        kotak tersebut. Properti float left digunakan
+        untuk menempatkan elemen ke sisi kiri sehingga
+        teks dapat mengalir di sampingnya.
+    </p>
+
+    <p>
+        Float adalah properti CSS yang digunakan untuk
+        mengatur posisi suatu elemen agar berada di
+        sebelah kiri atau kanan, sehingga elemen lain
+        seperti teks dapat mengelilinginya.
+    </p>
+
+    <div class="kotak2"></div>
+
+    <p>
+        Fungsi CSS float antara lain mengatur posisi
+        elemen ke kiri atau kanan, membuat teks
+        mengelilingi gambar atau kotak, mengatur tata
+        letak elemen pada halaman website, dan membantu
+        membuat tampilan konten menjadi lebih rapi.
+    </p>
+
+    <p>
+        CSS Float merupakan properti yang berfungsi
+        mengatur posisi elemen ke kiri atau kanan.
+        Float memiliki tiga nilai utama, yaitu left,
+        right, dan none. Properti ini dapat digunakan
+        untuk membuat teks mengelilingi gambar atau
+        kotak pada halaman website.
+    </p>
+
+    <div class="clear"></div>
+
+    <hr>
+
+    <h1>Galeri Gambar</h1>
+
+    <div class="galeri">
+
+        <div class="gambar">
+            <img src="https://picsum.photos/id/15/400/300"
+                 alt="Hutan">
+            <p>Gambar 1</p>
+        </div>
+
+        <div class="gambar">
+            <img src="https://picsum.photos/id/20/400/300"
+                 alt="Alam">
+            <p>Gambar 2</p>
+        </div>
+
+        <div class="gambar">
+            <img src="https://picsum.photos/id/55/400/300"
+                 alt="Pemandangan">
+            <p>Gambar 3</p>
+        </div>
+
+        <div class="gambar">
+            <img src="https://picsum.photos/id/70/400/300"
+                 alt="Gunung">
+            <p>Gambar 4</p>
+        </div>
+
+        <div class="gambar">
+            <img src="https://picsum.photos/id/40/400/300"
+                 alt="Lanskap">
+            <p>Gambar 5</p>
+        </div>
+
+        <div class="gambar">
+            <img src="https://picsum.photos/id/18/400/300"
+                 alt="Pemandangan alam">
+            <p>Gambar 6</p>
+        </div>
+
+        <div class="clear"></div>
+
+        <p>
+            masuk halaman index <a  href="index.html">disini</a>
+        </p>
+
+    </div>
+
+    <hr>
+
+    <p class="tengah">
+        Copyright &copy; 2026 Belajar Float Left.
+        All rights reserved.
+    </p>
+
+</body>
